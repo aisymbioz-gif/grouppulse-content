@@ -1,0 +1,21 @@
+{
+  "from": "content",
+  "to": "marketer",
+  "type": "content_ready",
+  "project": "group-pulse",
+  "stage": "grow",
+  "payload": {
+    "topic": "TG-группа = чёрный ящик, GroupPulse открывает",
+    "formats": ["article", "thread", "telegram_post", "reddit", "email"],
+    "channels": ["telegram", "reddit", "twitter", "habr"],
+    "cta": "Добавь @GroupPulse2026Bot → отчёт завтра в 9:00",
+    "schedule": {
+      "article": "tue 10:00",
+      "thread": "wed 14:00",
+      "telegram": "thu 11:00",
+      "reddit": "fri 16:00 UTC",
+      "email": "tue 18:00"
+    }
+  },
+  "confidence": 0.8
+}
